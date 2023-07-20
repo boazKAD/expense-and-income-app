@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "NODE_ENV=production babel-node ./src/server.js"
+    "start": "node app.js",
+    "build": "echo build"
   },
   "author": "",
   "license": "ISC",
